@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>081王雪霜</title>
+    <link rel="stylesheet" href="./font_tchuapoa28h/iconfont.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(./微信图片_20261117142311_583_2.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul,li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(30, 187, 223);
+            display: block;
+        }
+        .nav-menu{
+            justify-content: center;
+            position: relative;
+        }
+        .nav-menu>li{
+            width: 150px;
+            height: 60px;
+            margin-bottom: 5px;
+            position: relative;
+            overflow: visible;
+        }
+        .yijihezi{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 100%;
+            color: white;
+        }
+        .yijihezi i{
+            font-size: 24px;
+            margin-right: 8px;
+            color:rgb(237, 70, 123) ;
+        }
+        .nav-menu>li:hover{
+            box-shadow: 0 5px 15px rgba(13, 134, 114, 0.2);
+        }
+        .erjihezi{
+            position: absolute;
+            top: 0;
+            left: 150px;
+            width: 0;
+            overflow: hidden;
+            background-color:rgb(202, 232, 244);
+            box-shadow: 0 4px 4px 0;
+            transition: all 300ms linear;
+            white-space: nowrap;
+        }
+        .nav-menu>li:hover .erjihezi{
+            width: 60px;
+        }
+        .erjihezi li{
+            height: 60px;
+            line-height: 60px;
+            border-bottom: 1px solid #eee;
+            padding-left: 20px;
+            transition: all 300ms linear;
+        }
+        .erjihezi li:last-child{
+            border-bottom: none;
+        }
+        .erjihezi li:hover{
+            border-color: #f9f9f9;
+            padding-left: 28px;
+        }
+        .erjihezi i{
+            font-size: 16px;
+            margin-right: 10px;
+            color: rgb(27, 147, 195);
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="nav-menu">
+        <li>
+            <a href="#" class="yijihezi">
+                <i class="iconfont icon-lisianthus"></i>
+            </a>
+            <ul class="erjihezi">
+                <li><a href="#"><i class="iconfont icon-dandelion""></i></a></li>
+                <li><a href="#"><i class="iconfont icon-herbaceous-peony"></i></a></li>
+                <li><a href="#"><i class="iconfont icon-marigold"></i></a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="yijihezi">
+                <i class="iconfont icon-tyrannosaurus-rex"></i>
+            </a>
+            <ul class="erjihezi">
+                <li><a href="#"><i class="iconfont icon-axolotl"></i></a></li>
+                <li><a href="#"><i class="iconfont icon-secretary-bird"></i></a></li>
+                <li><a href="#"><i class="iconfont icon-binturong"></i></a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="yijihezi">
+                <i class="iconfont icon-bear"></i>
+            </a>
+            <ul class="erjihezi">
+                <li><a href="#"><i class="iconfont icon-dog"></i></a></li>
+                <li><a href="#"><i class="iconfont icon-panda"></i></a></li>
+                <li><a href="#"><i class="iconfont icon-pig"></i></a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
